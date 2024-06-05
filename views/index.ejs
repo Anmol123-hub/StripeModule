@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+</head>
+<body>
+
+    <h1>Shopping Cart</h1>
+    <h3>Node.js and Express Book</h3>
+
+    <p>Price: ₹500</p>
+    <p>Quantity: 1</p>
+
+    <br>
+
+    <h3>JavaScript T-Shirt</h3>
+
+    <p>Price: ₹200</p>
+    <p>Quantity: 2</p>
+
+
+    <form action="/voucher" method="post">
+        <label for="coupon"> Enter the coupon code: </label>
+        <input type="text" name="coupon" id="coupon" placeholder="Enter the coupon code"> &nbsp;
+        <input type="submit" value="Validate">
+    </form>
+
+    <br>
+
+    <form action="/checkout" method="post">
+
+        <input type="submit" value="Proceed to Checkout">
+    </form>
+
+</body>
+</html>
